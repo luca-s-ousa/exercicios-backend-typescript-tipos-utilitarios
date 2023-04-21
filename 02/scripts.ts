@@ -40,6 +40,8 @@ type Endereco = {
 
 // outra forma
 
+// & -> extende as referencias de um tipo para outro tipo
+
 // junta o tipo Carrinho com o tipo Endereco atraves do & (interseção),
 // omitindo a propriedade tipoTransacao! E depois adiciono
 // esta propriedade adicionado o Lowercase para trata-la
